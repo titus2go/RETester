@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC6BB41D176C53D900885019 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6BB41C176C53D900885019 /* Cocoa.framework */; };
+		BC6BB427176C53D900885019 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC6BB425176C53D900885019 /* InfoPlist.strings */; };
+		BC6BB429176C53D900885019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BB428176C53D900885019 /* main.m */; };
+		BC6BB42D176C53D900885019 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BC6BB42B176C53D900885019 /* Credits.rtf */; };
+		BC6BB430176C53D900885019 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BB42F176C53D900885019 /* AppDelegate.m */; };
+		BC6BB433176C53DA00885019 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6BB431176C53DA00885019 /* MainMenu.xib */; };
+		BC6BB43E176D573200885019 /* TCRETester.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BB43D176D573100885019 /* TCRETester.m */; };
+		BC6BB447176DA45500885019 /* DialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BB445176DA45500885019 /* DialogController.m */; };
+		BC6BB448176DA45500885019 /* DialogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6BB446176DA45500885019 /* DialogController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC6BB419176C53D900885019 /* RETester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RETester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6BB41C176C53D900885019 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BC6BB41F176C53D900885019 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BC6BB420176C53D900885019 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BC6BB421176C53D900885019 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC6BB424176C53D900885019 /* RETester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RETester-Info.plist"; sourceTree = "<group>"; };
+		BC6BB426176C53D900885019 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC6BB428176C53D900885019 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC6BB42A176C53D900885019 /* RETester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RETester-Prefix.pch"; sourceTree = "<group>"; };
+		BC6BB42C176C53D900885019 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BC6BB42E176C53D900885019 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC6BB42F176C53D900885019 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC6BB432176C53DA00885019 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BC6BB43C176D573100885019 /* TCRETester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRETester.h; sourceTree = "<group>"; };
+		BC6BB43D176D573100885019 /* TCRETester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRETester.m; sourceTree = "<group>"; };
+		BC6BB444176DA45500885019 /* DialogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogController.h; sourceTree = "<group>"; };
+		BC6BB445176DA45500885019 /* DialogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogController.m; sourceTree = "<group>"; };
+		BC6BB446176DA45500885019 /* DialogController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialogController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC6BB416176C53D900885019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6BB41D176C53D900885019 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC6BB410176C53D900885019 = {
+			isa = PBXGroup;
+			children = (
+				BC6BB444176DA45500885019 /* DialogController.h */,
+				BC6BB445176DA45500885019 /* DialogController.m */,
+				BC6BB446176DA45500885019 /* DialogController.xib */,
+				BC6BB422176C53D900885019 /* RETester */,
+				BC6BB41B176C53D900885019 /* Frameworks */,
+				BC6BB41A176C53D900885019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC6BB41A176C53D900885019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC6BB419176C53D900885019 /* RETester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC6BB41B176C53D900885019 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC6BB41C176C53D900885019 /* Cocoa.framework */,
+				BC6BB41E176C53D900885019 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC6BB41E176C53D900885019 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC6BB41F176C53D900885019 /* AppKit.framework */,
+				BC6BB420176C53D900885019 /* CoreData.framework */,
+				BC6BB421176C53D900885019 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BC6BB422176C53D900885019 /* RETester */ = {
+			isa = PBXGroup;
+			children = (
+				BC6BB42F176C53D900885019 /* AppDelegate.m */,
+				BC6BB42E176C53D900885019 /* AppDelegate.h */,
+				BC6BB431176C53DA00885019 /* MainMenu.xib */,
+				BC6BB423176C53D900885019 /* Supporting Files */,
+				BC6BB43C176D573100885019 /* TCRETester.h */,
+				BC6BB43D176D573100885019 /* TCRETester.m */,
+			);
+			path = RETester;
+			sourceTree = "<group>";
+		};
+		BC6BB423176C53D900885019 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC6BB424176C53D900885019 /* RETester-Info.plist */,
+				BC6BB425176C53D900885019 /* InfoPlist.strings */,
+				BC6BB428176C53D900885019 /* main.m */,
+				BC6BB42A176C53D900885019 /* RETester-Prefix.pch */,
+				BC6BB42B176C53D900885019 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC6BB418176C53D900885019 /* RETester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6BB436176C53DA00885019 /* Build configuration list for PBXNativeTarget "RETester" */;
+			buildPhases = (
+				BC6BB415176C53D900885019 /* Sources */,
+				BC6BB416176C53D900885019 /* Frameworks */,
+				BC6BB417176C53D900885019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RETester;
+			productName = RETester;
+			productReference = BC6BB419176C53D900885019 /* RETester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC6BB411176C53D900885019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Titus Cheng";
+			};
+			buildConfigurationList = BC6BB414176C53D900885019 /* Build configuration list for PBXProject "RETester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC6BB410176C53D900885019;
+			productRefGroup = BC6BB41A176C53D900885019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC6BB418176C53D900885019 /* RETester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC6BB417176C53D900885019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6BB427176C53D900885019 /* InfoPlist.strings in Resources */,
+				BC6BB42D176C53D900885019 /* Credits.rtf in Resources */,
+				BC6BB433176C53DA00885019 /* MainMenu.xib in Resources */,
+				BC6BB448176DA45500885019 /* DialogController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC6BB415176C53D900885019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6BB429176C53D900885019 /* main.m in Sources */,
+				BC6BB430176C53D900885019 /* AppDelegate.m in Sources */,
+				BC6BB43E176D573200885019 /* TCRETester.m in Sources */,
+				BC6BB447176DA45500885019 /* DialogController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC6BB425176C53D900885019 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6BB426176C53D900885019 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC6BB42B176C53D900885019 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6BB42C176C53D900885019 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BC6BB431176C53DA00885019 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6BB432176C53DA00885019 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC6BB434176C53DA00885019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC6BB435176C53DA00885019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC6BB437176C53DA00885019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RETester/RETester-Prefix.pch";
+				INFOPLIST_FILE = "RETester/RETester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC6BB438176C53DA00885019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RETester/RETester-Prefix.pch";
+				INFOPLIST_FILE = "RETester/RETester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC6BB414176C53D900885019 /* Build configuration list for PBXProject "RETester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6BB434176C53DA00885019 /* Debug */,
+				BC6BB435176C53DA00885019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6BB436176C53DA00885019 /* Build configuration list for PBXNativeTarget "RETester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6BB437176C53DA00885019 /* Debug */,
+				BC6BB438176C53DA00885019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC6BB411176C53D900885019 /* Project object */;
+}
